@@ -20,10 +20,11 @@
 // internal & private view & pure functions
 // external & public view & pure functions
 
-import {IBlockAbstract} from "../Interfaces/IBlockAbstract.sol";
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
+
+import {IBlockAbstract} from "../Interfaces/IBlockAbstract.sol";
 
 abstract contract BlockAbstract {
     ////////////////////////////////
